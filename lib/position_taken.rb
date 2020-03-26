@@ -2,6 +2,6 @@
 
 def position_taken?(array, token_index)
   if array[token_index] == " " || array[token_index] == ""
-    return FALSE
+    return false
   end
 end
